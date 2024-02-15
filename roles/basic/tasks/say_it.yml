@@ -1,0 +1,5 @@
+---
+
+- name: say hi
+  ansible.builtin.debug:
+    msg: Just saying hi to {{ name }}!
